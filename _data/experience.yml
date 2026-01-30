@@ -6,10 +6,15 @@
   description: |
     Impact Assessment Agency of Canada conducts federal impact assessments of major projects, like mines, ports, and dams, in federal jurisdiction
   responsibilities:
-    - "Build A.I. enabled public services and internal tools to improve efficiency and accessibility of impact assessments"
+    - "Collect and document clients' requirements and develop digital and infrastructure specifi cations for our A.I. enabled systems."
+    - "Design and coordinate the development, installation, integration and operation of our experimental A.I. systems."
+    - "Upgrade and develop Indigenous Consultation procedures for our Assessment Management System (AMS)"
   technologies:
     - C#
-    - Python
+    - Artificial Intelligence
+    - Agentic System
+    - RAG,
+    - MCP
     - Azure AI Foundry
     - .NET Framework
 
