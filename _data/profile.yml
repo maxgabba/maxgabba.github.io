@@ -1,42 +1,52 @@
 # Personal Information
-name: "Echo Yin"
-title: "Senior A.I. Developer"
-email: "echoybl1123@gmail.com"
-location: "Edmonton, AB, Canada"
-tagline: "Passionate about creating innovative web solutions"
+name: "Максим Букей"
+title: "Аналитик данных"
+email: "maxgabba+git@gmail.com"
+location: "Екатеринбург, Россия"
+tagline: "Data&WebAnalytics, UX research, CX, growthhack, CRO и много других смешных слов"
 
 # About section
 about:
+  title: Чем я могу помочь
   description: |
-    I'm a passionate full-stack developer with over 5 years of experience creating digital solutions that make a difference. 
-    My journey in technology began with curiosity and has evolved into a love for crafting elegant, efficient code that solves real-world problems.
+    Я опытный аналитик данных с 15-летним опытом в продуктовой и веб-аналитике.
 
-    I specialize in modern web technologies and have a strong background in both frontend and backend development. 
-    When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community.
+    Эксперт в полном цикле работы с данными: от настройки сбора событий до проведения A/B тестов и визуализации (Tableau, Metabase).
 
-  image: assets/images/profile/portrait-small.jpg
+    Обладаю доменной экспертизой в онлайн-ритейле (Спортмастер, СуперСтрой), СМИ и издательском деле (Ridero, 66.ru), где успешно решал задачи по автоматизации отчётности, оптимизации воронок продаж и улучшению UX.
+
+    Умею работать с разными бизнес-моделями и систематизировать знания как для своего развития, так и для обучения команды.
+    
+    Готов к разнообразным проектам в гибридном или удаленном формате в ИТ-компании."
+
+  image: assets/images/profile/portrait-small.png
   resume_url: assets/resume.pdf
-  ctrl_url: "https://e-choness.github.io/ctrl-alt-deploy/blog/"
+  resume_cta: Скачать резюме
+  ctrl_url: 
+  ctrl_cta: Блог
 
 # Statistics
 stats:
-  - label: "Years Experience"
-    value: 7
-  - label: "Projects Completed"
-    value: 38
-  - label: "Happy Clients"
-    value: 66
+  - label: "Лет в профессии"
+    value: 15
+  - label: "Дашбордов построено"
+    value: 159
+  - label: "АБ тестов проведено"
+    value: 266
+  - label: "Чашек кофе выпито"
+    value: 5475
 
 # Social Media Links
 social:
-  github: "https://github.com/e-choness/"
-  linkedin: "https://www.linkedin.com/in/echoyin0451/"
-  twitter: "https://x.com/_echo_yin"
-  email: "mailto:echoybl1123@gmail.com"
+  telegram: "https://t.me/maxgabba"
+  github: #"https://github.com/maxgabba/"
+  linkedin: "https://www.linkedin.com/in/maxgabba/"
+  twitter: #"https://x.com/maxgabba"
+  email: "mailto:maxgabba+git@gmail.com"
 
 # Typing animation texts
 typed_strings:
-  - "A.I. Engineer"
+  - "Data / product analyst"
   - "Problem Solver"
-  - "Tech Enthusiast"
+  - "Visualizer"
   - "Creative Thinker"

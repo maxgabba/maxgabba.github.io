@@ -1,33 +1,41 @@
 <header class="header">
   <nav class="nav-container">
-    <a href="{{ '/' | relative_url }}" class="logo"
-      >{{ site.data.profile.name }}</a
-    >
+    <a href="{{ '/' | relative_url }}" class="logo">{{ site.data.profile.name }}</a>
 
     <ul id="primary-menu" class="nav-menu">
       <li>
-        <a href="{{ '/#home' | relative_url }}" class="nav-link">Home</a>
+        <a href="{{ '/#home' | relative_url }}" class="nav-link"><i class="fa-solid fa-house"></i></a>
       </li>
+      {% if site.data.nav.about %}
       <li>
-        <a href="{{ '/#about' | relative_url }}" class="nav-link">About</a>
+        <a href="{{ '/#about' | relative_url }}" class="nav-link">{{site.data.nav.about}}</a>
       </li>
+      {% endif %}
+      {% if site.data.nav.experience %}
       <li>
-        <a href="{{ '/#experience' | relative_url }}" class="nav-link"
-          >Experience</a
-        >
+        <a href="{{ '/#experience' | relative_url }}" class="nav-link">{{site.data.nav.experience}}</a>
       </li>
+      {% endif %}
+      {% if site.data.nav.projects %}
       <li>
-        <a href="{{ '/#projects' | relative_url }}" class="nav-link"
-          >Projects</a
-        >
+        <a href="{{ '/#projects' | relative_url }}" class="nav-link">{{site.data.nav.projects}}</a>
       </li>
+      {% endif %}
+      {% if site.data.nav.skills %}
       <li>
-        <a href="{{ '/#skills' | relative_url }}" class="nav-link">Skills</a>
+        <a href="{{ '/#skills' | relative_url }}" class="nav-link">{{site.data.nav.skills}}</a>
       </li>
-      <li><a href="{{ '/blog/' | relative_url }}" class="nav-link">Blog</a></li>
+      {% endif %}
+      {% if site.data.nav.blog %}
       <li>
-        <a href="{{ '/#contact' | relative_url }}" class="nav-link">Contact</a>
+        <a href="{{ '/blog/' | relative_url }}" class="nav-link">{{site.data.nav.blog}}</a>
       </li>
+      {% endif %}
+      {% if site.data.nav.contact %}
+      <li>
+        <a href="{{ '/#contact' | relative_url }}" class="nav-link">{{site.data.nav.contact}}</a>
+      </li>
+      {% endif %}
     </ul>
 
     <div class="nav-controls">

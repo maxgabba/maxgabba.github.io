@@ -1,11 +1,11 @@
 categories:
-  - name: "Frontend Development"
+  - name: "Data Analysis & SQL"
     skills:
-      - name: "TypeScript"
-        level: 80
-        years: 4
+      - name: "SQL (Advanced)"
+        level: 70
+        years: 7
         icon: "fas fa-code"
-      - name: "React"
+      - name: "Clickhouse"
         level: 90
         years: 4
         icon: "fab fa-react"
@@ -22,7 +22,7 @@ categories:
         years: 2
         icon: "fab fa-vuejs"
 
-  - name: "Backend Development"
+  - name: "Big Data Stack"
     skills:
       - name: "Node.js"
         level: 70
@@ -45,7 +45,7 @@ categories:
         years: 2
         icon: "fas fa-project-diagram"
 
-  - name: "Database & Tools"
+  - name: "Data Engineering / ETL"
     skills:
       - name: "MongoDB"
         level: 82
@@ -67,4 +67,72 @@ categories:
         level: 70
         years: 2
         icon: "fab fa-google"
-      
+  
+  - name: "Data Visualization"
+    skills:
+      - name: "Node.js"
+        level: 70
+        years: 4
+        icon: "fab fa-node-js"
+      - name: "Python"
+        level: 90
+        years: 3
+        icon: "fab fa-python"
+      - name: ".NET Framework"
+        level: 95
+        years: 4
+        icon: "fab fa-microsoft"
+      - name: "REST APIs"
+        level: 90
+        years: 4
+        icon: "fas fa-exchange-alt"
+      - name: "GraphQL"
+        level: 70
+        years: 2
+        icon: "fas fa-project-diagram"
+
+  - name: "Web & Mobile Analytics"
+    skills:
+      - name: "MongoDB"
+        level: 82
+        years: 3
+        icon: "fas fa-database"
+      - name: "Microsoft SQL Server"
+        level: 78
+        years: 3
+        icon: "fas fa-server"
+      - name: "Git"
+        level: 92
+        years: 5
+        icon: "fab fa-git-alt"
+      - name: "Azure"
+        level: 85
+        years: 5
+        icon: "fab fa-microsoft"
+      - name: "Google Cloud Platform"
+        level: 70
+        years: 2
+        icon: "fab fa-google"
+
+  - name: "Experimentation"
+    skills:
+      - name: "MongoDB"
+        level: 82
+        years: 3
+        icon: "fas fa-database"
+      - name: "Microsoft SQL Server"
+        level: 78
+        years: 3
+        icon: "fas fa-server"
+      - name: "Git"
+        level: 92
+        years: 5
+        icon: "fab fa-git-alt"
+      - name: "Azure"
+        level: 85
+        years: 5
+        icon: "fab fa-microsoft"
+      - name: "Google Cloud Platform"
+        level: 70
+        years: 2
+        icon: "fab fa-google"

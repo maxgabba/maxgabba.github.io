@@ -1,12 +1,12 @@
 # Site settings
-title: Echo Yin
-email: echoybl1123@gmail.com
+title: Максим Букей
+email: maxgabba+git@gmail.com
 description: >-
   Full-stack developer passionate about creating innovative web solutions.
   Experienced in modern JavaScript frameworks, backend development, and UI/UX design.
-baseurl: "/portfolio-site" # the subpath of your site, e.g. /blog
-repository: e-choness/portfolio-site # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects) # the base hostname & protocol for your site
-url: "https://e-choness.github.io" # the base hostname & protocol for your site
+baseurl: "/" # the subpath of your site, e.g. /blog
+repository: maxgabba/maxgabba.github.io # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects) # the base hostname & protocol for your site
+url: "https://maxgabba.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
@@ -30,10 +30,10 @@ exclude:
 # Collections
 collections:
   projects:
-    output: true
+    output: false
     permalink: /:collection/:name/
   posts:
-    output: true
+    output: false
     permalink: /blog/:year/:month/:day/:title/
 
 # Pagination
@@ -44,31 +44,27 @@ paginate_path: "/blog/page:num/"
 blog:
   title: "Blog"
   description: "Thoughts on web development, technology, and career insights"
-  author: "Echo Yin"
+  author: "maxgabba"
 
 projects:
   title: "Projects"
   description: "Explore my portfolio of projects showcasing various technologies and skills"
-  author: "Echo Yin"
+  author: "maxgabba"
 
 # Site data
 author:
-  name: Echo Yin
-  title: Software Engineer
-  location: "Edmonton, AB, Canada"
-  years_experience: 5
-  projects_completed: 25
-  happy_clients: 15
+  name: Максим Букей
+  title: Аналитик данных
+  location: "Екатеринбург, Россия"
+  years_experience: over 15
 
 # Social links
 social:
-  github: e-choness
-  linkedin: echoybl0451
-  twitter: _echo_yin
-  email: echoybl1123@gmail.com
-
-# Google Analytics (optional)
-google_analytics: UA-XXXXXXXXX-X
+  github: maxgabba
+  linkedin: maxgabba
+  telegram: t.me/maxgabba
+  twitter: maxgabba
+  email: maxgabba+git@gmail.com
 
 # Theme settings
 sass:

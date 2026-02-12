@@ -20,7 +20,7 @@
 .timeline-item {
     position: relative;
     margin-bottom: 3rem;
-    width: calc(80% - 2rem);
+    width: calc(100% - 2rem);
     
     &:nth-child(even) {
         margin-left: auto;
@@ -80,4 +80,11 @@
         margin-bottom: 0.5rem;
         line-height: 1.5;
     }
+}
+
+.sub-responsibilities {
+    list-style-type: circle;
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 0.95em;
 }
