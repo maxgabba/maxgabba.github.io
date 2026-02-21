@@ -1,138 +1,108 @@
 categories:
+  - name: "Веб и мобильная аналитика"
+    skills:
+      - name: "GTM, GA4 и sGTM"
+        level: 91
+        icon: "fas fa-database"
+      - name: "Яндекс метрика"
+        level: 89
+        icon: "fab fa-yandex-international"
+      - name: "Mobile Attribution: Работа с AppsFlyer"
+        level: 67
+        icon: "fas fa-mobile"
+      - name: "Google Big Query"
+        level: 70
+        icon: "fab fa-google"
+      - name: "Javascript для GTM"
+        level: 80
+        icon: "fab fa-microsoft"
+
+  - name: "Эксперименты"
+    skills:
+      - name: "Формирование и оценка гипотез"
+        level: 95
+        icon: "fas fa-database"
+      - name: "Статистические методы анализа"
+        level: 70
+        icon: "fab fa-git-alt"
+      - name: "Python для АБ тестов"
+        level: 85
+        icon: "fab fa-microsoft"
+      - name: "Внешние инструменты АБ тестов"
+        level: 93
+        icon: "fab fa-google"
+      - name: "Повышение чувствительности метрик"
+        level: 72
+        icon: "fas fa-server"
+
+  - name: "Визуализация данных"
+    skills:
+      - name: "Tableau"
+        level: 70
+        icon: "fab fa-node-js"
+      - name: "Python (plotly, seaborn)"
+        level: 80
+        icon: "fab fa-python"
+      - name: "Metabase"
+        level: 95
+        icon: "fab fa-microsoft"
+      - name: "Google Looker Studio"
+        level: 90
+        icon: "fas fa-exchange-alt"
+      - name: "Storytelling with Data"
+        level: 85
+        icon: "fas fa-project-diagram"
+
   - name: "Data Analysis & SQL"
     skills:
       - name: "SQL (Advanced)"
-        level: 70
-        years: 7
+        level: 74
         icon: "fas fa-code"
       - name: "Clickhouse"
-        level: 90
-        years: 4
+        level: 73
         icon: "fab fa-react"
-      - name: "CSS3"
+      - name: "Python, Pandas"
         level: 85
-        years: 4
         icon: "fab fa-css3-alt"
-      - name: "HTML5"
-        level: 80
-        years: 5
+      - name: "R"
+        level: 67
         icon: "fab fa-html5"
-      - name: "Vue.js"
-        level: 75
-        years: 2
+      - name: "Excel"
+        level: 82
         icon: "fab fa-vuejs"
 
-  - name: "Big Data Stack"
+  - name: "Data Engineering / ETL / Big Data"
     skills:
-      - name: "Node.js"
+      - name: "DAG Airflow"
         level: 70
-        years: 4
         icon: "fab fa-node-js"
       - name: "Python"
-        level: 90
-        years: 3
+        level: 85
         icon: "fab fa-python"
-      - name: ".NET Framework"
-        level: 95
-        years: 4
+      - name: "Spark, Hadoop, Kafka"
+        level: 52
         icon: "fab fa-microsoft"
-      - name: "REST APIs"
-        level: 90
-        years: 4
+      - name: "CI/CD, git"
+        level: 75
         icon: "fas fa-exchange-alt"
-      - name: "GraphQL"
-        level: 70
-        years: 2
+      - name: "Swagger"
+        level: 80
         icon: "fas fa-project-diagram"
 
-  - name: "Data Engineering / ETL"
+  - name: "Зона роста"
     skills:
-      - name: "MongoDB"
-        level: 82
-        years: 3
+      - name: "Streaming data tools"
+        level:
         icon: "fas fa-database"
-      - name: "Microsoft SQL Server"
-        level: 78
-        years: 3
+      - name: "Bayesian statistics"
+        level:
         icon: "fas fa-server"
-      - name: "Git"
-        level: 92
-        years: 5
+      - name: "Continuous Experimentation"
+        level:
         icon: "fab fa-git-alt"
-      - name: "Azure"
-        level: 85
-        years: 5
+      - name: "Analytics Engineering (dbt)"
+        level:
         icon: "fab fa-microsoft"
-      - name: "Google Cloud Platform"
-        level: 70
-        years: 2
-        icon: "fab fa-google"
-  
-  - name: "Data Visualization"
-    skills:
-      - name: "Node.js"
-        level: 70
-        years: 4
-        icon: "fab fa-node-js"
-      - name: "Python"
-        level: 90
-        years: 3
-        icon: "fab fa-python"
-      - name: ".NET Framework"
-        level: 95
-        years: 4
-        icon: "fab fa-microsoft"
-      - name: "REST APIs"
-        level: 90
-        years: 4
-        icon: "fas fa-exchange-alt"
-      - name: "GraphQL"
-        level: 70
-        years: 2
-        icon: "fas fa-project-diagram"
-
-  - name: "Web & Mobile Analytics"
-    skills:
-      - name: "MongoDB"
-        level: 82
-        years: 3
-        icon: "fas fa-database"
-      - name: "Microsoft SQL Server"
-        level: 78
-        years: 3
-        icon: "fas fa-server"
-      - name: "Git"
-        level: 92
-        years: 5
-        icon: "fab fa-git-alt"
-      - name: "Azure"
-        level: 85
-        years: 5
-        icon: "fab fa-microsoft"
-      - name: "Google Cloud Platform"
-        level: 70
-        years: 2
-        icon: "fab fa-google"
-
-  - name: "Experimentation"
-    skills:
-      - name: "MongoDB"
-        level: 82
-        years: 3
-        icon: "fas fa-database"
-      - name: "Microsoft SQL Server"
-        level: 78
-        years: 3
-        icon: "fas fa-server"
-      - name: "Git"
-        level: 92
-        years: 5
-        icon: "fab fa-git-alt"
-      - name: "Azure"
-        level: 85
-        years: 5
-        icon: "fab fa-microsoft"
-      - name: "Google Cloud Platform"
-        level: 70
-        years: 2
+      - name: "Data Modeling (DWH)"
+        level:
         icon: "fab fa-google"

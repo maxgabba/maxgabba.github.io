@@ -2,11 +2,11 @@
 title: Максим Букей
 email: maxgabba+git@gmail.com
 description: >-
-  Full-stack developer passionate about creating innovative web solutions.
-  Experienced in modern JavaScript frameworks, backend development, and UI/UX design.
+  Я опытный аналитик данных с 15-летним опытом в продуктовой и веб-аналитике.
+  Помогу настроить аналитику от сбора событий до презентации руководству.
+url: "https://maxgabba.ru" # the base hostname & protocol for your site
 baseurl: "/" # the subpath of your site, e.g. /blog
 repository: maxgabba/maxgabba.github.io # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects) # the base hostname & protocol for your site
-url: "https://maxgabba.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
@@ -43,12 +43,12 @@ paginate_path: "/blog/page:num/"
 # Blog settings
 blog:
   title: "Blog"
-  description: "Thoughts on web development, technology, and career insights"
+  description: ""
   author: "maxgabba"
 
 projects:
-  title: "Projects"
-  description: "Explore my portfolio of projects showcasing various technologies and skills"
+  title: "Проекты"
+  description: "Немного о реализованных проектах"
   author: "maxgabba"
 
 # Site data
