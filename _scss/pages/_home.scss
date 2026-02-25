@@ -12,6 +12,10 @@
     var(--bg-primary) 0%,
     var(--bg-secondary) 100%
   );
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 }
 
 .particles-container {
@@ -291,6 +295,21 @@
   @media (max-width: 768px) {
     min-width: 5px; // Show a small progress bar even before animation
   }
+}
+
+.skill-custom-img {
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.skill-custom-img:hover {
+    transform: scale(1.02); /* Легкое увеличение при наведении */
+    filter: brightness(0.9);
+}
+
+.skill-image-container {
+    text-align: center; /* Центрируем подпись и фото */
 }
 
 // Blog Section

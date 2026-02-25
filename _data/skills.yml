@@ -89,20 +89,24 @@ categories:
         level: 80
         icon: "fas fa-project-diagram"
 
-  - name: "Зона роста"
+  - name: "Профиль компетенций"
     skills:
-      - name: "Streaming data tools"
-        level:
-        icon: "fas fa-database"
-      - name: "Bayesian statistics"
-        level:
-        icon: "fas fa-server"
-      - name: "Continuous Experimentation"
-        level:
-        icon: "fab fa-git-alt"
-      - name: "Analytics Engineering (dbt)"
-        level:
-        icon: "fab fa-microsoft"
-      - name: "Data Modeling (DWH)"
-        level:
-        icon: "fab fa-google"
+      - name: 
+        image: "assets/images/graph.png"
+  #   - name: "Профиль навыков"
+  #     skills:
+  #     - name: "Streaming data tools"
+  #       level:
+  #       icon: "fas fa-database"
+  #     - name: "Bayesian statistics"
+  #       level:
+  #       icon: "fas fa-server"
+  #     - name: "Continuous Experimentation"
+  #       level:
+  #       icon: "fab fa-git-alt"
+  #     - name: "Analytics Engineering (dbt)"
+  #       level:
+  #       icon: "fab fa-microsoft"
+  #     - name: "Data Modeling (DWH)"
+  #       level:
+  #       icon: "fab fa-google"

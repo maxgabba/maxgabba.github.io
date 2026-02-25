@@ -10,6 +10,14 @@
           <h3>{{ category.name }}</h3>
           {% for skill in category.skills %}
           <div class="skill-item">
+            {% if skill.image %}
+            <div class="skill-image-container">
+              <span class="skill-name">{{ skill.name }}</span>
+              <a href="{{ skill.image | relative_url }}" data-lightbox="skills-gallery" data-title="{{ skill.name }}" target="_blank">
+                <img src="{{ skill.image | relative_url }}" alt="{{ skill.name }}" class="skill-custom-img">
+              </a>
+            </div>
+            {% else %}
             <div class="skill-info">
               <span class="skill-name">{{ skill.name }}</span>
               <span class="skill-percentage">{{ skill.level }}%</span>
@@ -17,6 +25,7 @@
             <div class="skill-bar">
               <div class="skill-progress" data-width="{{ skill.level }}"></div>
             </div>
+            {% endif %}
           </div>
           {% endfor %}
         </div>

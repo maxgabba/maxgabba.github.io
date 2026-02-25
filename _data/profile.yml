@@ -21,8 +21,8 @@ about:
   image: assets/images/profile/portrait-small.png
   resume_url: assets/resume.pdf
   resume_cta: Скачать резюме
-  ctrl_url: 
-  ctrl_cta: Блог
+  ctrl_url: "https://t.me/maxgabba"
+  ctrl_cta: TG
 
 # Statistics
 stats:
